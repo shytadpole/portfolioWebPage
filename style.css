@@ -1,0 +1,55 @@
+body{
+  position:relative;
+}
+#section1{height: 1000px; width: 100%; background-image: url(http://wallpaperhdbase.com/wp-content/gallery/websites-with-background-images/final_shot_with_vig_small.jpg); background-size: cover;}
+#section2{
+  
+}
+#section3{
+  padding-top:50px;height:500px;color:#fff;background-image:url();background-repeat:no-repeat;
+}
+#section41{ height: 800px; background-image: url(https://www.robkempers.nl/resources/background-wallpaper-for-websites.jpg); background-size: cover;
+ 
+}
+#secttion42{
+ 
+}
+h1 {
+  color: yellow;
+  text-align: center;
+  
+ 
+}
+h2{
+  color: yellow;
+  text-align: center;
+}
+.button {
+  position: relative;
+  background-color: blue;
+  border: solid;
+  border-color: black;
+  font-size: 28px;
+  font-style: italic;
+  text-align: center;
+  -webkit-transition-duration:0.4s/*Safari*/
+    transition-duration:0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer; 
+}
+.button:after {
+  content:"";
+  background: yellow;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.8s;
+}
+.button:active:after {
+  opacity: 1;
+  transition: 0s;
+}
+
+
+
